@@ -1,0 +1,21 @@
+name : "Luca LaFontaine"
+
+roles : [
+  'Energy Analyst',
+  'Data Analyst',
+]
+
+contact : {
+  location : "Montreal, QC", 
+  phoneNum : "613-807-7282", 
+  email : "lafoluca@gmail.com", 
+  linkedIn : "www.linkedin.com/in/luca-lafontaine", 
+}
+
+education : {
+  mechBac : {
+    diploma : 'Mechanical Engineering BASc.',
+    school : 'University of Ottawa',
+    completionDate : 'April 2021',
+  }
+}

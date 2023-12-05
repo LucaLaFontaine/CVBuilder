@@ -1,0 +1,16 @@
+# Environment name
+.venv/
+
+# Env Files
+*.env
+
+# Byte-compiled / optimized / DLL files
+# __pycache__/
+**/__pycache__/
+
+# Ignore jupyter checkpoints
+.ipynb_checkpoints/
+
+# Don't actually upload my CV or other Word assets
+*.docx
+*.thmx

@@ -1,0 +1,51 @@
+
+# top, right, bottom, left
+docMargins : [10, 10, 10, 10]
+
+defaultFormat : {
+  'font-name' : 'Cambria',
+  'font-size' : 'Pt(11)',
+  'font-colour' : 'RGBColor(0, 0, 0)',
+  'para_space_after' : 'Pt(4)',
+  'para_line_spacing' : 1,
+  'para_align' : 'WD_ALIGN_PARAGRAPH.LEFT',
+}
+
+defaultTitleFormat : {
+  'font-name' : 'Calibri',
+  'font-bold' : True,
+  'para_align' : 'WD_ALIGN_PARAGRAPH.LEFT',
+}
+
+headerFormat : {
+  'font-size' : 'Pt(16)',
+  'font-colour' : 'RGBColor(59, 109, 169)',
+  'para_space_after' : 'Pt(5)',
+}
+
+bulletFormat : {
+  'para_style' : 'List Bullet',
+  'font-colour' : 'RGBColor(0, 0, 0)',
+}
+
+# Put all the body formats here because who gives a shit about the title formats
+
+
+
+titleFormat : {
+  'font-size' : 'Pt(24)',
+  'font-colour' : 'RGBColor(59, 109, 169)',
+}
+
+rolesFormat : {
+  'font-size' : 'Pt(16)',
+  'para_space_after' : 'Pt(5)',
+}
+
+contactFormat : {
+  'para_space_after' : 'Pt(5)',
+}
+
+spacerFormat : {
+  'para_space_after' : 'Pt(0)',
+}
