@@ -198,7 +198,8 @@ class CVBldr:
         return tenureStr
 
 if __name__ == '__main__':
-    expFile = r"C:\Users\Luca\Documents\Luca Notes\Resume\Resume.md"
+    config = yaml.safe_load(open('config.yaml'))
+    expFile = eval(config['expFile']).replace('\\', '/')
     resume = CVBldr(expFile)
     resume.addHeader()
     resume.addSpacer()
